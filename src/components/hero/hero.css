@@ -18,3 +18,38 @@
   margin-top: 40px;
   gap: 24px;
 }
+
+.huddle__hero-content h1 {
+  font-family: var(--ff-poppins);
+  font-size: 2.625rem;
+  line-height: 1.5;
+  font-weight: var(--fw-500);
+  color: var(--white);
+}
+
+.huddle__hero-content p {
+  font-family: var(--ff-open-sans);
+  font-size: 0.938rem;
+  line-height: 1.8;
+  font-weight: var(--fw-300);
+  color: var(--white);
+}
+
+.huddle__hero-content button {
+  font-family: var(--ff-open-sans);
+  font-size: 1rem;
+  font-weight: var(--fw-300);
+  border-radius: 60px;
+  border: none;
+  padding: 14px 60px;
+  background-color: var(--white);
+  color: var(--violet);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
+}
+
+.huddle__hero-content button:hover {
+  background-color: var(--soft-magenta);
+  color: var(--white);
+}
