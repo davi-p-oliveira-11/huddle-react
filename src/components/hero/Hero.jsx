@@ -1,4 +1,4 @@
-import heroData, { heroHeading, heroText } from "../../constants/index"
+import heroData from "../../constants/index"
 import { mockup } from "../../assets/mockup.svg"
 import "./hero.css"
 
