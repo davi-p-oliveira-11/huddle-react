@@ -16,3 +16,14 @@
 .huddle__footer-icons a:hover {
   color: var(--soft-magenta);
 }
+
+@media screen and (max-width: 500px) {
+
+  .huddle__footer {
+    align-items: center;
+  }
+
+  .huddle__footer-icons {
+    margin-top: -100px;
+  }
+}
