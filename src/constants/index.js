@@ -1,5 +1,3 @@
-import {} from "../assets"
-
 export const heroHeading = [
   {
     id: "heading",
