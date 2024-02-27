@@ -53,3 +53,33 @@
   background-color: var(--soft-magenta);
   color: var(--white);
 }
+
+@media screen and (max-width: 1050px) {
+  
+  .huddle__hero {
+    flex-direction: column;
+  }
+
+  .huddle__hero-content {
+    margin: 0 0 3rem;
+    text-align: center;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  
+  .huddle__hero-image img {
+    margin-top: -2rem;
+  }
+
+  .huddle__hero-content {
+    margin-top: -2rem;
+  }
+  
+  .huddle__hero-content h1 {
+    font-size: 1.5rem;
+  }
+  
+}
