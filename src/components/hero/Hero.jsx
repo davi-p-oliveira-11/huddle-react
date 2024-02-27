@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Header = () => {
+const Hero = () => {
   return (
-    <div>Header</div>
+    <div>Hero</div>
   )
 }
 
-export default Header
+export default Hero
