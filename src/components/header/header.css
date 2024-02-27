@@ -1,0 +1,11 @@
+.huddle__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 5rem;
+}
+
+.huddle__header_logo {
+  margin-right: 1.8rem;
+}
