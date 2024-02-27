@@ -9,3 +9,8 @@
 .huddle__header_logo {
   margin-right: 1.8rem;
 }
+
+.huddle__header_logo img {
+  width: 226px;
+  height: 49px;
+}

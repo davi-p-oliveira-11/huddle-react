@@ -3,8 +3,8 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div>
-      <div>
+    <div className='huddle__header'>
+      <div className='huddle__header_logo'>
         <img src={logo} alt="huddle_logo" />
       </div>
     </div>
