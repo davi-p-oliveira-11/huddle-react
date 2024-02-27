@@ -1,9 +1,17 @@
-import React from 'react'
-
+import {FaFacebookF, FaTwitter, FaInstagram} from 'react-icons/fa';
+import "./footer.css";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='huddle__footer section__padding'>
+      <div className='huddle__footer-icons__container'>
+        <div className='huddle__footer-icons'>
+          <a href="#">< FaFacebookF/></a>
+          <a href="#">< FaTwitter /></a>
+          <a href="#">< FaInstagram /></a>
+        </div>
+      </div>
+    </div>
   )
 }
 

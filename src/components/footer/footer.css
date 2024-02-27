@@ -1,0 +1,18 @@
+.huddle__footer {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.huddle__footer-icons {
+  display: flex;
+  gap: 26px;
+  font-size: 26px;
+  margin-top: -100px;
+}
+
+.huddle__footer-icons a:hover {
+  color: var(--soft-magenta);
+}
