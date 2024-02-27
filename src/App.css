@@ -28,3 +28,53 @@ a {
 .section__margin {
   margin: 4rem 6rem;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+
+  .section__padding {
+    padding: 4rem;
+  }
+  
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  body {
+    background-image: url(./assets/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  body {
+    background-image: url(./assets/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+
+
+
