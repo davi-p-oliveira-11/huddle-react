@@ -1,13 +1,10 @@
-export const heroHeading = [
+const heroData = [
   {
-    id: "heading",
-    content: "Build The Community Your Fans Will Love"
+    title: "Build The Community Your Fans Will Love",
+    description: "Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion",
+    buttonText: "Register"
   },
 ];
 
-export const heroText = [
-  {
-    id : "text",
-    content : "Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with. your users as you engage in genuine discussion"
-  },
-];
+export default heroData;
+

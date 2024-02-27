@@ -1,4 +1,4 @@
-import { heroHeading, heroText } from "../../constants/index"
+import heroData, { heroHeading, heroText } from "../../constants/index"
 import { mockup } from "../../assets/mockup.svg"
 import "./hero.css"
 
@@ -9,9 +9,9 @@ const Hero = () => {
         <img src={mockup} alt="mockup image" />
       </div>
       <div className="huddle__hero-content">
-        <h1></h1>
-        <p></p>
-        <button href="#">Register</button>
+        <h1>{heroData.title}</h1>
+        <p>{heroData.description}</p>
+        <button href="#">{heroData.buttonText}</button>
       </div>
     </div>
   )
